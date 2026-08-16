@@ -6,12 +6,10 @@
     "color": "#5865F2",
     "thumbnailIsAvatar": true
   },
-
   "ticketCategoryId": "PUT_TICKET_CATEGORY_ID_HERE",
   "ticketRoleIds": ["PUT_TICKET_STAFF_ROLE_ID_HERE"],
   "maxOpenTicketsPerUser": 2,
   "closeCountdownSeconds": 5,
-
   "panel": {
     "title": "",
     "description": "Select an option below to open a ticket.",
@@ -23,10 +21,38 @@
       "id": "support",
       "label": "Support",
       "description": "General help or questions",
-      "emoji": "🎫"
+      "emoji": "🎫",
+      "channelCategoryId": "PUT_SUPPORT_CATEGORY_ID_HERE"
+    },
+    {
+      "id": "giveaway_claim",
+      "label": "Giveaway Claim",
+      "description": "Claim a giveaway you won",
+      "emoji": "🎉",
+      "channelCategoryId": "PUT_GIVEAWAY_CLAIM_CATEGORY_ID_HERE"
+    },
+    {
+      "id": "giveaway_sponsor",
+      "label": "Giveaway Sponsor",
+      "description": "Sponsor a giveaway",
+      "emoji": "🏆",
+      "channelCategoryId": "PUT_GIVEAWAY_SPONSOR_CATEGORY_ID_HERE"
+    },
+    {
+      "id": "spawner_sell",
+      "label": "Spawner Sell",
+      "description": "Sell spawners to staff",
+      "emoji": "💀",
+      "channelCategoryId": "PUT_SPAWNER_SELL_CATEGORY_ID_HERE"
+    },
+    {
+      "id": "spawner_buy",
+      "label": "Spawner Buy",
+      "description": "Buy spawners from staff",
+      "emoji": "💀",
+      "channelCategoryId": "PUT_SPAWNER_BUY_CATEGORY_ID_HERE"
     }
   ],
-
   "applicationReviewChannelId": "PUT_APPLICATION_REVIEW_CHANNEL_ID_HERE",
   "applicationStaffRoleIds": ["PUT_APPLICATION_STAFF_ROLE_ID_HERE"],
   "applications": [
