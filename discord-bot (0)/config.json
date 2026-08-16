@@ -1,5 +1,5 @@
 {
-  "welcomeChannelId": "PUT_WELCOME_CHANNEL_ID_HERE",
+  "welcomeChannelId": "1538615313761964133",
   "welcomeMessage": {
     "title": "",
     "description": "Welcome {user} to **{server}**! We're glad you're here.",
